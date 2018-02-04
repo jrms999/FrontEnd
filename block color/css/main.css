@@ -1,0 +1,38 @@
+body {
+	text-align: center;
+}
+.box {
+	display: inline-block;
+	height: 300px;
+	width: 25%;
+}
+.tomato {
+	background-color: tomato;
+}
+.red {
+	background-color: red;
+}
+.crimson {
+	background-color: crimson;
+}
+.maroon {
+	background-color: maroon;
+}
+
+@media (max-width: 600px) {
+	.red, .crimson {
+		display: none;
+	}
+}
+@media (min-width: 1000px) {
+	.box {
+		width: 100%;
+	}
+}
+
+
+.container {
+	height: 200px;
+	width: 200px;
+	background-color: purple;
+}
